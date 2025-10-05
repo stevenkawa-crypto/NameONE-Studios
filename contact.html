@@ -1,0 +1,52 @@
+<!doctype html><html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — NameONE Studios</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-neutral-950 text-neutral-100">
+  <main class="max-w-2xl mx-auto px-6 py-16">
+    <a href="/" class="text-sm text-neutral-400 hover:text-neutral-200">← Back</a>
+    <h1 class="mt-4 text-3xl font-semibold">Contact / Feedback</h1>
+    <p class="mt-2 text-neutral-300">We keep this simple: your message comes to us, we review, and we reply if needed. No mailing lists without explicit opt-in.</p>
+
+    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field"
+          action="/contact/thanks"
+          class="mt-8 space-y-4 p-6 rounded-2xl border border-neutral-800 bg-neutral-900">
+      <!-- Netlify form id -->
+      <input type="hidden" name="form-name" value="contact">
+
+      <!-- Honeypot -->
+      <p class="hidden">
+        <label>Don’t fill this out if you’re human: <input name="bot-field"></label>
+      </p>
+
+      <label class="block">
+        <span class="text-sm text-neutral-300">Your name</span>
+        <input name="name" required class="mt-1 w-full rounded-xl bg-neutral-800 border border-neutral-700 px-3 py-2 outline-none focus:border-emerald-500">
+      </label>
+
+      <label class="block">
+        <span class="text-sm text-neutral-300">Email (so we can reply)</span>
+        <input type="email" name="email" required class="mt-1 w-full rounded-xl bg-neutral-800 border border-neutral-700 px-3 py-2 outline-none focus:border-emerald-500">
+      </label>
+
+      <label class="block">
+        <span class="text-sm text-neutral-300">Message</span>
+        <textarea name="message" rows="6" required class="mt-1 w-full rounded-xl bg-neutral-800 border border-neutral-700 px-3 py-2 outline-none focus:border-emerald-500"></textarea>
+      </label>
+
+      <label class="flex items-start gap-2 text-sm text-neutral-300">
+        <input type="checkbox" name="optin" value="yes" class="mt-1">
+        <span>I agree to be contacted about this inquiry. We don’t sell or share your info.</span>
+      </label>
+
+      <button type="submit" class="w-full rounded-xl border border-emerald-500/60 bg-emerald-500/10 px-4 py-2 hover:bg-emerald-500/20">Send</button>
+
+      <p class="text-xs text-neutral-400">
+        Privacy: We only use this info to respond to your message. No analytics tied to personal data. You can ask us to delete your submission at any time.
+      </p>
+    </form>
+  </main>
+</body>
+</html>

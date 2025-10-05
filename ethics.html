@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ethics & Governance — NameONE Studios</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root { --brand:#6ee7b7; --brandDark:#10b981; }
+    html, body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+    .grad { background-image: radial-gradient(1200px 600px at 20% -10%, rgba(110,231,183,.15), transparent),
+                                radial-gradient(800px 400px at 80% 0%, rgba(59,130,246,.12), transparent); }
+    .glass { backdrop-filter: blur(10px); background: rgba(255,255,255,.6); }
+    .dark .glass { background: rgba(24,24,27,.6); }
+  </style>
+</head>
+<body class="bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-50 grad">
+  
+  <!-- Top bar -->
+  <header class="sticky top-0 z-50 border-b border-zinc-200/60 dark:border-zinc-800/60 bg-white/80 dark:bg-zinc-950/70 glass">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-2 font-extrabold tracking-tight text-lg">
+        <span class="inline-block h-3 w-3 rounded-full bg-[--brand]"></span>
+        <span>NameONE <span class="font-black">Studios</span></span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a class="hover:text-[--brandDark]" href="/#products">Products</a>
+        <a class="hover:text-[--brandDark]" href="/#patents">Patents</a>
+        <a class="text-[--brandDark] font-semibold" href="/ethics">Ethics</a>
+        <a class="hover:text-[--brandDark]" href="/#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
+      <div class="text-center">
+        <h1 class="text-4xl sm:text-5xl font-black leading-tight">Ethics is not an add-on.<br/>It's our <span class="text-[--brandDark]">architecture</span>.</h1>
+        <p class="mt-6 text-lg text-zinc-600 dark:text-zinc-300 max-w-3xl mx-auto">At NameONE Studios, ethical AI isn't a policy document—it's embedded in our code. Our systems enforce consent, verify decisions, and preserve human dignity through patent-pending technical frameworks designed for transparency and accountability.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Commitment -->
+  <section class="py-12 border-t border-zinc-200/70 dark:border-zinc-800/70">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-extrabold mb-8">Our Commitment</h2>
+      <div class="prose prose-zinc dark:prose-invert max-w-none">
+        <p class="text-lg">We believe AI systems should be trustworthy by design, accessible to everyone, and accountable to the people they serve. Rather than relying on voluntary guidelines alone, we've architected these principles directly into our technical systems.</p>
+        
+        <p>This approach reflects our commitment to addressing the longstanding concerns raised by ethics organizations, researchers, and regulators worldwide—not through aspirational statements, but through working implementations that can be independently verified.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Framework Alignment -->
+  <section class="py-12 border-t border-zinc-200/70 dark:border-zinc-800/70">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-extrabold mb-8">Alignment with Global Standards</h2>
+      <p class="text-zinc-600 dark:text-zinc-300 mb-8">Our architecture was designed to address requirements from leading AI governance frameworks:</p>
+      
+      <div class="grid md:grid-cols-2 gap-8">
+        
+        <!-- EU AI Act -->
+        <article class="p-6 rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white/70 dark:bg-zinc-950/60">
+          <div class="flex items-start gap-3">
+            <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center">
+              <svg class="w-5 h-5 text-blue-600 dark:text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+              </svg>
+            </div>
+            <div class="flex-1">
+              <h3 class="font-bold text-lg mb-2">EU AI Act</h3>
+              <p class="text-sm text-zinc-600 dark:text-zinc-300 mb-3">The EU's comprehensive AI regulation establishes transparency, human oversight, and accountability requirements for AI systems.</p>
+              <ul class="mt-3 text-sm text-zinc-600 dark:text-zinc-300 space-y-2 mb-3">
+                <li><span class="font-semibold">Transparency:</span> Our CPIF framework provides cryptographic verification of AI decision chains</li>
+                <li><span class="font-semibold">Human Oversight:</span> Human-governed Revival protocols ensure operator control at critical junctures</li>
+                <li><span class="font-semibold">Documentation:</span> CPIF receipts create auditable lineage trails for compliance verification</li>
+              </ul>
+              <a href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank" rel="noopener noreferrer" class="text-xs text-[--brandDark] hover:underline">Learn more about the EU AI Act →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- NIST AI RMF -->
+        <article class="p-6 rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white/70 dark:bg-zinc-950/60">
+          <div class="flex items-start gap-3">
+            <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-emerald-100 dark:bg-emerald-900/30 flex items-center justify-center">
+              <svg class="w-5 h-5 text-emerald-600 dark:text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+              </svg>
+            </div>
+            <div class="flex-1">
+              <h3 class="font-bold text-lg mb-2">NIST AI Risk Management Framework</h3>
+              <p class="text-sm text-zinc-600 dark:text-zinc-300 mb-3">NIST's voluntary framework for managing AI risks through Govern, Map, Measure, and Manage functions.</p>
+              <ul class="mt-3 text-sm text-zinc-600 dark:text-zinc-300 space-y-2 mb-3">
+                <li><span class="font-semibold">Govern:</span> CIT scoring establishes quality floors and triggers intervention protocols</li>
+                <li><span class="font-semibold">Measure:</span> Real-time coherence metrics quantify system performance and safety</li>
+                <li><span class="font-semibold">Manage:</span> ECCS performs adversarial checking before high-stakes decisions</li>
+              </ul>
+              <a href="https://www.nist.gov/itl/ai-risk-management-framework" target="_blank" rel="noopener noreferrer" class="text-xs text-[--brandDark] hover:underline">Learn more about NIST AI RMF →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- IEEE EAD -->
+        <article class="p-6 rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white/70 dark:bg-zinc-950/60">
+          <div class="flex items-start gap-3">
+            <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center">
+              <svg class="w-5 h-5 text-purple-600 dark:text-purple-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+              </svg>
+            </div>
+            <div class="flex-1">
+              <h3 class="font-bold text-lg mb-2">IEEE Ethically Aligned Design</h3>
+              <p class="text-sm text-zinc-600 dark:text-zinc-300 mb-3">IEEE's vision for prioritizing human well-being in autonomous and intelligent systems through value-based engineering.</p>
+              <ul class="mt-3 text-sm text-zinc-600 dark:text-zinc-300 space-y-2 mb-3">
+                <li><span class="font-semibold">Human Rights:</span> Consent labeling operationalizes user autonomy in every interaction</li>
+                <li><span class="font-semibold">Well-being:</span> Adaptive accessibility features serve individual needs with dignity</li>
+                <li><span class="font-semibold">Accountability:</span> Verifiable decision chains enable meaningful oversight and recourse</li>
+              </ul>
+              <a href="https://ethicsinaction.ieee.org/" target="_blank" rel="noopener noreferrer" class="text-xs text-[--brandDark] hover:underline">Learn more about IEEE EAD →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Accessibility -->
+        <article class="p-6 rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white/70 dark:bg-zinc-950/60">
+          <div class="flex items-start gap-3">
+            <div class="flex-shrink-0 w-10 h-10 rounded-lg bg-amber-100 dark:bg-amber-900/30 flex items-center justify-center">
+              <svg class="w-5 h-5 text-amber-600 dark:text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+              </svg>
+            </div>
+            <div class="flex-1">
+              <h3 class="font-bold text-lg mb-2">Universal Design Principles</h3>
+              <p class="text-sm text-zinc-600 dark:text-zinc-300">Accessibility is not a feature—it's foundational to how we build technology that serves everyone.</p>
+              <ul class="mt-3 text-sm text-zinc-600 dark:text-zinc-300 space-y-2">
+                <li><span class="font-semibold">Adaptive Design:</span> Systems adjust to aphasia, low vision, ADHD, hearing differences, and more</li>
+                <li><span class="font-semibold">Dignity Pacing:</span> Interactions adapt to individual processing speeds and cognitive styles</li>
+                <li><span class="font-semibold">Clear Communication:</span> Short-step prompts and consent badges reduce cognitive load</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Technical Approach -->
+  <section class="py-12 border-t border-zinc-200/70 dark:border-zinc-800/70 bg-zinc-100/50 dark:bg-zinc-900/20">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-extrabold mb-6">How We Implement Ethics</h2>
+      <p class="text-zinc-600 dark:text-zinc-300 mb-8">Our patent-pending HFLI architecture operationalizes ethical principles through technical mechanisms:</p>
+      
+      <div class="space-y-6">
+        
+        <div class="p-6 rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950">
+          <h3 class="font-bold text-xl mb-3">Coherence Integrity Threshold (CIT)</h3>
+          <p class="text-zinc-600 dark:text-zinc-300 mb-3">Real-time quality measurement that enforces safety floors. When system coherence drops below defined thresholds (demo default ≥70), deeper processing modes are triggered to ensure reliable outputs.</p>
+          <p class="text-sm text-zinc-500 dark:text-zinc-400"><span class="font-semibold">Ethics Principle:</span> Measurable safety standards prevent harm through quantifiable performance gates.</p>
+        </div>
+
+        <div class="p-6 rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950">
+          <h3 class="font-bold text-xl mb-3">Ethical Calculus Calibration System (ECCS)</h3>
+          <p class="text-zinc-600 dark:text-zinc-300 mb-3">Adversarial reflection layer that activates before high-stakes decisions. ECCS performs red-team analysis to identify potential harms, biases, or unintended consequences before actions are taken.</p>
+          <p class="text-sm text-zinc-500 dark:text-zinc-400"><span class="font-semibold">Ethics Principle:</span> Proactive harm prevention through systematic adversarial review at critical junctures.</p>
+        </div>
+
+        <div class="p-6 rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950">
+          <h3 class="font-bold text-xl mb-3">Core Persistent Identity Framework (CPIF)</h3>
+          <p class="text-zinc-600 dark:text-zinc-300 mb-3">Verifiable identity and decision lineage system that creates cryptographic receipts for AI interactions. CPIF enables auditability without exposing sensitive user data, preserving both accountability and privacy.</p>
+          <p class="text-sm text-zinc-500 dark:text-zinc-400"><span class="font-semibold">Ethics Principle:</span> Transparent accountability through verifiable decision trails that respect privacy.</p>
+        </div>
+
+        <div class="p-6 rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950">
+          <h3 class="font-bold text-xl mb-3">Consent Labeling & User Control</h3>
+          <p class="text-zinc-600 dark:text-zinc-300 mb-3">Every interaction includes clear consent indicators and user control mechanisms. One-click Revival protocols ensure humans maintain authority over system behavior and can reverse or modify AI decisions.</p>
+          <p class="text-sm text-zinc-500 dark:text-zinc-400"><span class="font-semibold">Ethics Principle:</span> User autonomy and informed consent as non-negotiable design requirements.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Demo -->
+  <section class="py-16 border-t border-zinc-200/70 dark:border-zinc-800/70">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-extrabold mb-3">Explore the Architecture</h2>
+        <p class="text-xl text-zinc-600 dark:text-zinc-300">An Interactive Demo</p>
+      </div>
+      
+      <div class="rounded-2xl border-2 border-[--brand] bg-gradient-to-br from-emerald-50 to-white dark:from-zinc-900 dark:to-zinc-950 p-8 shadow-xl">
+        <div class="max-w-3xl mx-auto">
+          <p class="text-lg text-zinc-700 dark:text-zinc-300 mb-6">Experience a working demonstration of our ethical AI architecture. This interactive demo shows real-time multi-AI coordination, adaptive user profiling, verifiable performance measurement, and the ethical constraints we've built into our systems.</p>
+          
+          <div class="grid md:grid-cols-2 gap-4 mb-8">
+            <div class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-[--brandDark] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+              </svg>
+              <div>
+                <h4 class="font-semibold text-zinc-900 dark:text-zinc-100">CIT Scoring & Enforcement</h4>
+                <p class="text-sm text-zinc-600 dark:text-zinc-400">See how coherence thresholds trigger different processing paths</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-[--brandDark] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+              </svg>
+              <div>
+                <h4 class="font-semibold text-zinc-900 dark:text-zinc-100">ECCS Safety Overrides</h4>
+                <p class="text-sm text-zinc-600 dark:text-zinc-400">Watch enhanced safeguards activate for vulnerable users</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-[--brandDark] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+              </svg>
+              <div>
+                <h4 class="font-semibold text-zinc-900 dark:text-zinc-100">Verification Receipts</h4>
+                <p class="text-sm text-zinc-600 dark:text-zinc-400">View cryptographic-style proof generation with each response</p>
+              </div>
+            </div>
+            
+            <div class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-[--brandDark] flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+              </svg>
+              <div>
+                <h4 class="font-semibold text-zinc-900 dark:text-zinc-100">Adaptive User Profiling</h4>
+                <p class="text-sm text-zinc-600 dark:text-zinc-400">Experience how pacing and tone adjust for different users</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="text-center">
+            <a href="./hyperdrive_zkpa_demo.html" class="inline-flex items-center gap-2 rounded-xl bg-[--brand] text-zinc-900 font-bold px-6 py-4 text-lg shadow-lg hover:bg-[--brandDark] hover:text-white transition-all transform hover:scale-105">
+              <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              Launch Interactive Demo
+            </a>
+            <p class="mt-4 text-xs text-zinc-500 dark:text-zinc-400">Performance metrics shown are from actual browser measurements in lab conditions. Architecture patterns demonstrate our patent-pending technical frameworks.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Privacy & Data -->
+  <section class="py-12 border-t border-zinc-200/70 dark:border-zinc-800/70">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-extrabold mb-6">Privacy by Design</h2>
+      <div class="prose prose-zinc dark:prose-invert max-w-none">
+        <p>We collect only the data necessary to provide our services, and we design systems that preserve privacy even during audit and verification processes. Our approach includes:</p>
+        <ul class="space-y-2 mt-4">
+          <li><strong>Data minimization:</strong> We gather only essential information required for system functionality</li>
+          <li><strong>Privacy-preserving verification:</strong> CPIF receipts enable auditability without exposing raw conversation data</li>
+          <li><strong>User control:</strong> Individuals maintain authority over their data and can request deletion or modification</li>
+          <li><strong>Florida compliance:</strong> Our practices align with Florida's Information Protection Act (FIPA) requirements</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ongoing Commitment -->
+  <section class="py-12 border-t border-zinc-200/70 dark:border-zinc-800/70 bg-zinc-100/50 dark:bg-zinc-900/20">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-extrabold mb-6">Continuous Improvement</h2>
+      <div class="prose prose-zinc dark:prose-invert max-w-none">
+        <p>Ethics in AI is not a destination—it's an ongoing practice. We commit to:</p>
+        
+        <div class="grid md:grid-cols-2 gap-6 mt-6 not-prose">
+          <div class="p-5 rounded-xl bg-white dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800">
+            <h3 class="font-bold mb-2">External Review</h3>
+            <p class="text-sm text-zinc-600 dark:text-zinc-300">We welcome independent audits of our systems and will publish findings when permitted by security considerations.</p>
+          </div>
+          
+          <div class="p-5 rounded-xl bg-white dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800">
+            <h3 class="font-bold mb-2">Transparent Reporting</h3>
+            <p class="text-sm text-zinc-600 dark:text-zinc-300">We will publish regular updates on system performance, ethical metrics, and areas for improvement.</p>
+          </div>
+          
+          <div class="p-5 rounded-xl bg-white dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800">
+            <h3 class="font-bold mb-2">Community Engagement</h3>
+            <p class="text-sm text-zinc-600 dark:text-zinc-300">We actively seek feedback from users, researchers, and advocacy organizations to improve our systems.</p>
+          </div>
+          
+          <div class="p-5 rounded-xl bg-white dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800">
+            <h3 class="font-bold mb-2">Adaptive Standards</h3>
+            <p class="text-sm text-zinc-600 dark:text-zinc-300">As AI governance frameworks evolve globally, we commit to adapting our systems to meet or exceed emerging requirements.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="py-12 border-t border-zinc-200/70 dark:border-zinc-800/70">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white/70 dark:bg-zinc-950/60 p-8 text-center">
+        <h2 class="text-2xl font-extrabold mb-3">Questions About Our Ethics?</h2>
+        <p class="text-zinc-600 dark:text-zinc-300 mb-6">We welcome inquiries from researchers, advocacy organizations, potential partners, and users about our ethical practices and technical implementations.</p>
+        <div class="flex flex-wrap justify-center gap-3">
+          <a href="/#contact" class="inline-flex items-center gap-2 rounded-xl bg-[--brand] text-zinc-900 font-semibold px-5 py-3 shadow hover:bg-[--brandDark] hover:text-white transition">Contact Us</a>
+          <a href="/privacy" class="inline-flex items-center gap-2 rounded-xl border border-zinc-300 dark:border-zinc-700 px-5 py-3 hover:bg-zinc-100 dark:hover:bg-zinc-900 transition">Privacy Notice</a>
