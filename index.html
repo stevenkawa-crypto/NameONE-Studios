@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NameONE Studios — Ethical AI & HFLI</title>
+  <meta name="description" content="NameONE Studios builds ethical AI experiences grounded in HFLI architecture and aligned with EU AI Act, NIST AI RMF, and IEEE EAD." />
+  <link rel="icon" href="/assets/favicon.ico" />
+  <meta property="og:title" content="NameONE Studios" />
+  <meta property="og:description" content="Ethical AI, HFLI architecture, and honest demos." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://nameonestudios.com/" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html, body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+  </style>
+</head>
+<body class="bg-neutral-950 text-neutral-100">
+  <!-- Header / Nav -->
+  <header class="border-b border-neutral-800/70 bg-neutral-950/70 backdrop-blur">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="/" class="font-semibold tracking-wide text-neutral-100 hover:text-emerald-400">NameONE Studios</a>
+      <nav class="flex items-center gap-6 text-sm">
+        <a href="/ethics" class="text-neutral-300 hover:text-emerald-400">Ethics & Governance</a>
+        <a href="/demo" class="text-neutral-300 hover:text-emerald-400">Interactive Demo</a>
+        <a href="/contact" class="text-neutral-300 hover:text-emerald-400">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main class="max-w-6xl mx-auto px-6">
+    <section class="py-20">
+      <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">
+        Ethical AI, built in the open.
+      </h1>
+      <p class="mt-4 text-neutral-300 max-w-2xl">
+        We design human-centered AI with HFLI architecture (CPIF · ECCS · CIT), aligned to the
+        EU AI Act, NIST AI RMF, and IEEE EAD. Transparent by design. Reviewed by the community.
+      </p>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a href="/demo" class="px-4 py-2 rounded-xl border border-emerald-500/60 bg-emerald-500/10 hover:bg-emerald-500/20">
+          Try the Demo
+        </a>
+        <a href="/ethics" class="px-4 py-2 rounded-xl border border-neutral-700 hover:bg-neutral-800">
+          Read Our Ethics
+        </a>
+        <a href="/contact" class="px-4 py-2 rounded-xl border border-neutral-700 hover:bg-neutral-800">
+          Contact
+        </a>
+      </div>
+    </section>
+
+    <!-- Quick Links / Cards -->
+    <section class="grid md:grid-cols-3 gap-6 pb-16">
+      <a href="/ethics" class="group rounded-2xl border border-neutral-800 bg-neutral-900 p-5 hover:border-emerald-500/50">
+        <h3 class="font-semibold mb-1 group-hover:text-emerald-400">Ethics & Governance</h3>
+        <p class="text-sm text-neutral-300">Our principles, framework alignment, and continuous improvement commitments.</p>
+      </a>
+
+      <a href="/demo" class="group rounded-2xl border border-neutral-800 bg-neutral-900 p-5 hover:border-emerald-500/50">
+        <h3 class="font-semibold mb-1 group-hover:text-emerald-400">Interactive Demo</h3>
+        <p class="text-sm text-neutral-300">Lightweight preview of HFLI components. Privacy-respecting, honest framing.</p>
+      </a>
+
+      <a href="/contact" class="group rounded-2xl border border-neutral-800 bg-neutral-900 p-5 hover:border-emerald-500/50">
+        <h3 class="font-semibold mb-1 group-hover:text-emerald-400">Contact / Feedback</h3>
+        <p class="text-sm text-neutral-300">Reach us with questions, audits, or collaboration ideas.</p>
+      </a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-neutral-800 py-8">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-neutral-400">
+      <p>© <span id="y"></span> NameONE Studios</p>
+      <div class="flex items-center gap-5">
+        <a href="/ethics" class="hover:text-emerald-400">Ethics</a>
+        <a href="/demo" class="hover:text-emerald-400">Demo</a>
+        <a href="/contact" class="hover:text-emerald-400">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
