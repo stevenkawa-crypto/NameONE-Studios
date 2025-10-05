@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Interactive Demo — NameONE Studios</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-neutral-950 text-neutral-100">
+  <main class="max-w-5xl mx-auto px-6 py-14">
+    <a href="/" class="text-sm text-neutral-400 hover:text-neutral-200">← Back</a>
+    <h1 class="text-3xl font-semibold mt-4">Interactive Demo (Preview)</h1>
+    <p class="mt-3 text-neutral-300 max-w-2xl">
+      This page will host a lightweight preview of HFLI components (CPIF, ECCS, CIT).
+      It’s a technology preview, not a scientific study. Outputs may be imperfect; feedback is welcome.
+    </p>
+
+    <section class="mt-8 p-6 rounded-2xl border border-neutral-800 bg-neutral-900">
+      <div class="flex items-center justify-between gap-4">
+        <label class="w-full">
+          <span class="text-sm text-neutral-300">Try a prompt</span>
+          <input id="prompt" class="mt-1 w-full rounded-xl bg-neutral-800 border border-neutral-700 px-3 py-2 outline-none focus:border-emerald-500" placeholder="Type something…">
+        </label>
+        <button id="run" class="shrink-0 mt-6 rounded-xl border border-emerald-500/60 bg-emerald-500/10 px-4 py-2 hover:bg-emerald-500/20">Run</button>
+      </div>
+      <div id="out" class="mt-4 min-h-24 rounded-xl bg-neutral-800/60 border border-neutral-700 p-4 text-neutral-200 text-sm">
+        Output will appear here…
+      </div>
+      <p class="mt-3 text-xs text-neutral-400">
+        Privacy note: this preview does not store inputs. If we enable telemetry later, we’ll update the ethics page and add an opt-in.
+      </p>
+    </section>
+  </main>
+
+  <script>
+    // Placeholder “demo” logic you can replace later
+    const run = document.getElementById('run');
+    const promptEl = document.getElementById('prompt');
+    const out = document.getElementById('out');
+
+    run.addEventListener('click', () => {
+      const text = (promptEl.value || '').trim();
+      out.textContent = text ? `Echo (preview): ${text}` : 'Please type something above.';
+    });
+  </script>
+</body>
+</html>
